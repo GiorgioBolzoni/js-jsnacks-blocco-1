@@ -15,8 +15,21 @@ const frutta = [
 ];
 // console.log(frutta);
 frutta.push('pesca');
-console.log(frutta);
+// console.log(frutta);
+// booleana
+let trovato = false;
 
 btn.addEventListener('click', function(){
-    // inputEl.value
-})
+    for(let i=0; i<frutta.length; i++){
+        if(frutta[i] === 'cocomero'){
+            trovato = true;
+        }
+    }
+    let text;
+    if(trovato){
+        text = 'Trovato! Devo solo preparare il cocktail.';
+    } else {
+        text = 'Oh no, devo uscire a comprare il cocomero!';
+    }
+    console.log(text);
+});
