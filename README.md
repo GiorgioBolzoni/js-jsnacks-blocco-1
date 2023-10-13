@@ -30,6 +30,6 @@ Chiediamo all'utente quanti elementi dell'array dovremo stampare
 #### Suggerimenti:
 Probabilmente conviene controllare che il numero di elementi della coda non sia più grande del numero di elementi totali dell'array
 ## 3.  (Bonus)
-Cartella: array_bonus
+#### Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
