@@ -36,5 +36,21 @@ btn2.addEventListener('click', function(){
     resultEl2.innerText = array2
     console.log(array2.length);
 });
+btn3.addEventListener('click', function(){
+    // console.log(inputEl)
+    let difference1 = array1.length - array2.length
+    console.log(difference1)
+    randomNumber3 = getRndInteger(1, 100);
+    const array3 = []
+    if(array1.length>array2.length){
+        array2.splice(array1.length, 0, (difference1 * randomNumber3));
+        resultEl3.classList.remove('d-none')
+        resultEl2.innerText = array2
+    }
+        
 
+    // resultEl3.classList.remove('d-none')
+    // resultEl3.innerText = 
+
+});
 
