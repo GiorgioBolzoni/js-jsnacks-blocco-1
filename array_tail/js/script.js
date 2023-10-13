@@ -2,7 +2,7 @@ const btn = document.querySelector('button')
 const resultEl = document.querySelector('.alert')
 // creo array che contiene numeri casuali da 0 a 100
 const myArray = [];
-console.log(myArray)
+// console.log(myArray)
 
 btn.addEventListener('click', function(){
     const inputEl = parseInt(document.querySelector('input').value);
@@ -14,5 +14,9 @@ btn.addEventListener('click', function(){
         myArray.push(randomNumber);
         
     }
-
+    // console.log(myArray)
+    let msg = myArray.slice(myArray.length - 5, myArray.length)
+    console.log(msg)
+    resultEl.classList.remove('d-none')
+    resultEl.innerText = msg
 });

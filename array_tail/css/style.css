@@ -1,8 +1,4 @@
-/* .alert-1{
- background-color: green;
- width: 100px;
+.alert{
+    background-color: rgba(0, 128, 0, 0.564);
+    margin-top: 10px;
 }
-.alert-2{
- background-color: red;
- width: 100px;
-} */
